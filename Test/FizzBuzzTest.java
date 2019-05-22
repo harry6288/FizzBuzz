@@ -41,5 +41,13 @@ public class FizzBuzzTest {
 		String result = b.buzz(4);
 		assertEquals("4",result);
 	}
+	//r5
+	@Test
+	public void testPrimeNumber() {
+		FizzBuzz b = new FizzBuzz();
+		String result = b.buzz(11);
+		assertEquals("whizz",result);
+	}
+	
 
 }
