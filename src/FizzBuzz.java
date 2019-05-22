@@ -1,6 +1,20 @@
 
 public class FizzBuzz {
 	public String buzz(int num) {
+		boolean isPrime = true;
+		for(int i = 2; i < num -1; i++) {
+			if(num % i == 0)
+			{
+				isPrime = false;
+						break;
+			}
+		}
+		if(isPrime ==true)
+		{
+			return "whizz";
+		}
+		
+		
 		if(num %15 == 0) {
 			return "fizzbuzz";
 		}

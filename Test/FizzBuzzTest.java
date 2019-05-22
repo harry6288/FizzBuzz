@@ -24,7 +24,7 @@ public class FizzBuzzTest {
 	@Test
 	public void testDivisibleBy5() {
 		FizzBuzz b = new FizzBuzz();
-		String result = b.buzz(5);
+		String result = b.buzz(10);
 		assertEquals("buzz",result);
 	}
 	//r3
