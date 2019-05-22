@@ -13,11 +13,11 @@ public class FizzBuzzTest {
 	@After
 	public void tearDown() throws Exception {
 	}
-
+//r1
 	@Test
 	public void testDivisibleBy3() {
 		FizzBuzz b = new FizzBuzz();
-		String result = b.buzz(3);
+		String result = b.buzz(27);
 		assertEquals("fizz",result);
 	}
 
